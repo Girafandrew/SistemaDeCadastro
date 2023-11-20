@@ -3,11 +3,6 @@ import os
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-# Definindo a paleta de cores
-cor_fundo = "#000000"  # Preto
-cor_texto = "#00FF00"  # Verde
-cor_botao = "#006400"  # Verde escuro
-
 # Função para carregar o arquivo JSON
 def carregarArquivo(nomeArquivo):
     if os.path.exists(nomeArquivo):
